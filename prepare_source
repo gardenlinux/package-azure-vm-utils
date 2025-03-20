@@ -1,0 +1,6 @@
+pkg=azure-vm-utils
+version_orig=0.5.1
+version="$version_orig-1"
+git_src -b "debian/$version" https://salsa.debian.org/cloud-team/azure-vm-utils.git
+
+version_suffix="gl0~bp1592"
